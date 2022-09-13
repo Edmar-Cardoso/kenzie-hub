@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Kenzie-Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto acadêmico com o foco em validações para o usuário realizar um cadastro ou entrar em seu perfil realizando login. É uma aplicação onde o usuário após fazer login pode cadastrar ou apagar tecnologias que aprendeu e determinar em qual nível de conhecimento da mesma ele está, podendo ser iniciante, intermediário ou avançado.
 
-## Available Scripts
+## Visite o site!!
 
-In the project directory, you can run:
+https://kenzie-hub-blush.vercel.app/
 
-### `yarn start`
+## Layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Desktop
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Login:
 
-### `yarn test`
+<img src="./src/assets/imgs/imgsReadme/login-desktop-kenzie-hub.png" alt="Página de login no computador" width=650px>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cadastro:
 
-### `yarn build`
+<img src="./src/assets/imgs/imgsReadme/register-dekstop-kenzie-hub.png" alt="Página de cadastro no computador" width=650px>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dashboard:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="./src/assets/imgs/imgsReadme/dashboard-desktop-kenzie-hub.png" alt="Página principal no computador" width=650px>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Mobile
 
-### `yarn eject`
+Login:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="./src/assets/imgs/imgsReadme/login-mobile-kenzie-hub.png" alt="">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Cadastro:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="./src/assets/imgs/imgsReadme/register-mobilekenzie-hub.png" alt="">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Dashboard:
 
-## Learn More
+<img src="./src/assets/imgs/imgsReadme/dashboard-mobile-kenzie-hub.png" alt="">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Rode o projeto na sua máquina:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Pré-requisitos:
 
-### Code Splitting
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
-### Analyzing the Bundle Size
+#### Rodando o projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Clone este repositório
+$ git clone <git@github.com:Edmar-Cardoso/Nu-Kenzie.git>
 
-### Making a Progressive Web App
+#Acesse a pasta do projeto no terminal/cmd
+$ cd nome da pasta onde o projeto foi clonado
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#Instale as dependêcias
+$ yarn
 
-### Advanced Configuration
+#Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#O servidor iniciará na porta 3000
+```
 
-### Deployment
+##### Tecnologias usadas:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- React
+- Typescript
+- API REST
 
-### `yarn build` fails to minify
+##### Bibliotecas e hooks usados:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- useState
+- context
+- react-hook-form
+- yup
+- axios
+- styled-components
+- react-toastfy
+- react-dom
+- react-icons
+- react-router-dom
+- framer-motion
+
+##### Créditos:
+
+- Banco de dados e API fonecidos pela Kenzie Academy Brasil
+- Desenvolvido por [Edmar-Cardoso](https://github.com/Edmar-Cardoso)
