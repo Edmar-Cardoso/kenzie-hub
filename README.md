@@ -1,6 +1,6 @@
 # Kenzie-Hub
 
-Este é um projeto acadêmico com o foco em validações para o usuário realizar um cadastro ou entrar em seu perfil realizando login. É uma aplicação onde o usuário após fazer login pode cadastrar ou apagar tecnologias que aprendeu e determinar em qual nível de conhecimento da mesma ele está, podendo ser iniciante, intermediário ou avançado.
+Este é um projeto acadêmico com o foco em validações para o usuário realizar um cadastro ou entrar em seu perfil realizando login. É uma aplicação onde o usuário após fazer login pode cadastrar ou apagar tecnologias que aprendeu e determinar em qual nível de conhecimento da mesma ele está, podendo ser iniciante, intermediário ou avançado. Foi pensado nos alunos da Kenzie Academy Brasil, para que eles possam ir adicionando tecnologias adiquiridas no decorrer do curso.
 
 ## Visite o site!!
 
